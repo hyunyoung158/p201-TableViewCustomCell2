@@ -23,9 +23,10 @@
 		0072926E187D0044001550EB /* TableViewCustomCell2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0072926D187D0044001550EB /* TableViewCustomCell2Tests.m */; };
 		00729279187D0097001550EB /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 00729278187D0097001550EB /* Product.m */; };
 		0072927C187D0114001550EB /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0072927B187D0114001550EB /* ProductCell.m */; };
-		00729312187D5261001550EB /* ball1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0072930F187D5261001550EB /* ball1.jpg */; };
-		00729313187D5261001550EB /* ball2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00729310187D5261001550EB /* ball2.jpg */; };
-		00729314187D5261001550EB /* ball3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00729311187D5261001550EB /* ball3.jpg */; };
+		00ABACEA187F7E310082D5A1 /* baseball.png in Resources */ = {isa = PBXBuildFile; fileRef = 00ABACE6187F7E310082D5A1 /* baseball.png */; };
+		00ABACEB187F7E310082D5A1 /* basketball.png in Resources */ = {isa = PBXBuildFile; fileRef = 00ABACE7187F7E310082D5A1 /* basketball.png */; };
+		00ABACEC187F7E310082D5A1 /* football.png in Resources */ = {isa = PBXBuildFile; fileRef = 00ABACE8187F7E310082D5A1 /* football.png */; };
+		00ABACED187F7E310082D5A1 /* volleyball.png in Resources */ = {isa = PBXBuildFile; fileRef = 00ABACE9187F7E310082D5A1 /* volleyball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,9 +64,10 @@
 		0072927A187D0114001550EB /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
 		0072927B187D0114001550EB /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
 		0072930C187D4F3C001550EB /* CartDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartDelegate.h; sourceTree = "<group>"; };
-		0072930F187D5261001550EB /* ball1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ball1.jpg; sourceTree = "<group>"; };
-		00729310187D5261001550EB /* ball2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ball2.jpg; sourceTree = "<group>"; };
-		00729311187D5261001550EB /* ball3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ball3.jpg; sourceTree = "<group>"; };
+		00ABACE6187F7E310082D5A1 /* baseball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseball.png; sourceTree = "<group>"; };
+		00ABACE7187F7E310082D5A1 /* basketball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basketball.png; sourceTree = "<group>"; };
+		00ABACE8187F7E310082D5A1 /* football.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = football.png; sourceTree = "<group>"; };
+		00ABACE9187F7E310082D5A1 /* volleyball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volleyball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +97,6 @@
 		00729236187D0044001550EB = {
 			isa = PBXGroup;
 			children = (
-				0072930F187D5261001550EB /* ball1.jpg */,
-				00729310187D5261001550EB /* ball2.jpg */,
-				00729311187D5261001550EB /* ball3.jpg */,
 				00729248187D0044001550EB /* TableViewCustomCell2 */,
 				00729267187D0044001550EB /* TableViewCustomCell2Tests */,
 				00729241187D0044001550EB /* Frameworks */,
@@ -128,6 +127,10 @@
 		00729248187D0044001550EB /* TableViewCustomCell2 */ = {
 			isa = PBXGroup;
 			children = (
+				00ABACE6187F7E310082D5A1 /* baseball.png */,
+				00ABACE7187F7E310082D5A1 /* basketball.png */,
+				00ABACE8187F7E310082D5A1 /* football.png */,
+				00ABACE9187F7E310082D5A1 /* volleyball.png */,
 				00729277187D0097001550EB /* Product.h */,
 				00729278187D0097001550EB /* Product.m */,
 				00729251187D0044001550EB /* AppDelegate.h */,
@@ -249,12 +252,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00ABACEC187F7E310082D5A1 /* football.png in Resources */,
 				0072925B187D0044001550EB /* Images.xcassets in Resources */,
-				00729314187D5261001550EB /* ball3.jpg in Resources */,
+				00ABACEA187F7E310082D5A1 /* baseball.png in Resources */,
+				00ABACED187F7E310082D5A1 /* volleyball.png in Resources */,
 				0072924D187D0044001550EB /* InfoPlist.strings in Resources */,
 				00729256187D0044001550EB /* Main.storyboard in Resources */,
-				00729313187D5261001550EB /* ball2.jpg in Resources */,
-				00729312187D5261001550EB /* ball1.jpg in Resources */,
+				00ABACEB187F7E310082D5A1 /* basketball.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

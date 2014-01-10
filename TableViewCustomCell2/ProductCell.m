@@ -20,7 +20,7 @@
 //제품정보를 셀로 반영
 - (void)setProductInfo:(Product *)item {
     _productName.text = item.name;
-    _productPrice.text = item.name;
+    _productPrice.text = item.price;
     _productImage.image = [UIImage imageNamed:item.imageName];
 }
 

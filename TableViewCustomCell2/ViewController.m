@@ -77,9 +77,10 @@
 {
     [super viewDidLoad];
     
-    _data = @[[Product product:@"Baseball" price:@"100" image:@"ball1.jpg"],
-              [Product product:@"Basketball" price:@"200" image:@"ball2.jpg"],
-              [Product product:@"Volleyvall" price:@"300" image:@"ball3.jpg"]];
+    _data = @[[Product product:@"Baseball" price:@"100" image:@"baseball.png"],
+              [Product product:@"Basketball" price:@"200" image:@"basketball.png"],
+              [Product product:@"Football" price:@"300" image:@"football.png"],
+              [Product product:@"Volleyball" price:@"400" image:@"volleyball.png"]];
     
     _cart = [[NSMutableArray alloc] init];
 }
